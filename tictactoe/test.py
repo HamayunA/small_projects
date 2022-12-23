@@ -1,18 +1,17 @@
 
-
+b = True
 
 
 def main():
-    board = [["e", "e", "e"], ["e", "e", "e"], ["e", "e", "e"]]
+    global b
+    while (b):
+        print("b is true")
+        b = False
+    
 
-    x = foo(board)
-    foo(board)
-    print(x)
-
-def foo(b):
-    match b:
-        case [["e", "e", "e"], ["e", "e", "e"], ["e", "e", "e"]]:
-            return "0 0"
+def foo():
+    global b
+    b = False
 
 if __name__ == "__main__":
     main()
