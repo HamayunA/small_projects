@@ -19,6 +19,7 @@ GAME_RUNNING = True
 MOVE_COUNT = 0
 # Check if user wants to go first
 USER_GOING_FIRST = ""
+
 while (USER_GOING_FIRST.lower() != "yes" and USER_GOING_FIRST.lower() != "no"):
     USER_GOING_FIRST = input("Would you like to go first? (yes or no) ").strip()
 
