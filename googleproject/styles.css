@@ -1,0 +1,48 @@
+.word_search {
+    text-align: center;
+    margin-left: auto;
+}
+
+a {
+    display: inline;
+}
+
+h1 {
+    text-align: center;
+}
+
+.index_top_banner {
+    display: block;
+    position:absolute;
+    height:20%;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-left:0px;
+    background-color: burlywood;
+}
+
+.index_body {
+    display: block;
+    position: relative;
+    height:80%;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-left:0px;
+    background-color: aquamarine;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(146, 127, 255);
+}
